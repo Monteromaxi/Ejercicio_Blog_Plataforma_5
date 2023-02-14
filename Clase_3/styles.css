@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: "Press Start 2P";
+    color: white;
+}
+
+h1.titulo {
+    align-items: center;
+    font-size: 44px;
+    width: 400px;
+    height: 150px;
+    margin: 50px auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 0 2px;
+}  
+
+p.insert {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.juegos {
+    text-align: center;
+    border: 8px groove red;
+    height: 400px;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+
+.mario {
+    width: 420px;
+}
+
