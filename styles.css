@@ -6,6 +6,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.tituloNosotros {
+  margin: 0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.parrafoNosotros {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nosotros {
+  background-color: rgb(209, 216, 238);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(50, 79, 208); 
+}
+
 p {
   margin: 0;
   padding-left: 10px;
@@ -17,7 +35,7 @@ p {
   padding-top: 30px;
 }
 
-ul {
+ul:not(.redesSociales) {
   list-style-type: none;
   margin: 0;
   padding-left: 40%;
@@ -27,6 +45,16 @@ ul {
   position: fixed;
   width: 100%;
 }
+
+.redesSociales {
+  list-style-type: none;
+}
+
+.redes {
+  text-align: center;
+  margin-left: 150px;
+}
+
 
 li:not(.listaOrdenada) {
   float: left;
