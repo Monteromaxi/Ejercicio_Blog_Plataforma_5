@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.titulo {
+  padding-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 40%;
+  border: 2px solid rgb(210, 213, 221);
+  background-color: rgb(211, 217, 235);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+li:not(.listaOrdenada) {
+  float: left;
+}
+
+li a:not(.paginas) {
+  display: block;
+  color: rgb(50, 79, 208);
+  text-align: auto;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(157, 168, 220);
+}
+
+header {
+  margin: 0;
+  text-align: center;
+  color: rgb(50, 79, 208);
+  font-family: Cambria, Georgia, sans-serif;
+}
+.imagen {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.logos {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+footer {
+  margin: 0;
+  background-color: rgb(211, 217, 235);
+  color: rgb(50, 79, 208);
+  padding: 8px;
+  text-align: center;
+}
